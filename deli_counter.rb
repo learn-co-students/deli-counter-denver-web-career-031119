@@ -9,7 +9,7 @@ def line(current_line)
 end
 
 def take_a_number(current_line, person)
-  current_line.push(person)
+  current_line << person
   puts "Welcome, #{person}. You are number #{current_line.index(person) + 1} in line."
 end
 
